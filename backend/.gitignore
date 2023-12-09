@@ -1,0 +1,6 @@
+__pycache__
+images
+trained_models
+exception.html
+exception2.html
+geckodriver.log

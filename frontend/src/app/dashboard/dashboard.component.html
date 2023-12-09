@@ -1,0 +1,7 @@
+<div class="container-md mb-5">
+<div class="d-flex justify-content-between mb-2">
+    <div class="h3">Products</div>
+    <button type="button" class="btn btn-dark" (click)="open()" > + Add </button>
+</div>
+        <app-product *ngFor="let product of products | async" [product]="product" ></app-product>
+</div>

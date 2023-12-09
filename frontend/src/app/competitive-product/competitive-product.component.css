@@ -1,0 +1,3 @@
+.hide-arrrow::after {
+    display: none !important;
+  }

@@ -1,0 +1,7 @@
+selenium
+selectorlib
+flask
+flask-cors
+waitress
+requests
+pandas

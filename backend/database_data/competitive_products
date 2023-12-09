@@ -1,0 +1,279 @@
+[{
+  "_id": {
+    "$oid": "646796040603aeec8d82f3df"
+  },
+  "product_id": "646795070603aeec8d82f3dd",
+  "products": [
+    {
+      "title": "ASUS Vivobook 16 (2023) Core i5 13th Gen - (16 GB/512 GB SSD/Windows 11 Home) X1605VAB-MB544WS Laptop  (16 Inch, Transparent Silver, 1.88 Kg, With MS Office)",
+      "flipkartUrl": "https://flipkart.com/asus-vivobook-16-2023-core-i5-13th-gen-16-gb-512-gb-ssd-windows-11-home-x1605vab-mb544ws-laptop/p/itm7d4f6b8d9f9e5?pid=COMGZDQJBTAFSUMY&lid=LSTCOMGZDQJBTAFSUMYRO4OY6&marketplace=FLIPKART&q=laptop+Intel+Core+i5+i5-1240P+Intel+Integrated+Iris+Xe+Graphics+16+GB+512+GB&store=6bo%2Fb5g&srno=s_1_1&otracker=search&iid=0e89e2ed-2adb-4534-a1b7-59dd2a938837.COMGZDQJBTAFSUMY.SEARCH&ssid=7pld55x2xuc009hc1684509972976&qH=433d5a3150dcc311",
+      "amazonUrl": null,
+      "flipkartRating": 4.7,
+      "amazonRating": null,
+      "averageRating": 4.7,
+      "amazonPrice": null,
+      "flipkartPrice": 64990,
+      "model": "asus X1605VAB-MB544WS",
+      "specifications": {
+        "processor": "Intel Core i5 1335U",
+        "graphics": "Intel Integrated Iris Xe",
+        "RAM": "16 GB",
+        "storage": "512 GB",
+        "display": "40.64 cm (16 Inch)1920 x 1200 Pixel",
+        "display_type": "WUXGA, 16:10 aspect ratio, IPS-level Panel, 60Hz refresh rate, 300nits, 45% NTSC color gamut, Anti-glare display",
+        "price": 64990,
+        "model": "X1605VAB-MB544WS",
+        "Part Number": "90NB10N2-M00BR0"
+      }
+    },
+    {
+      "title": "ASUS Vivobook S 15 OLED (2023) Intel EVO H-Series Core i5 13th Gen - (16 GB/512 GB SSD/Windows 11 Home) K5504VA-LK542WS Thin and Light Laptop  (15.6 Inch, Midnight Black, 1.70 Kg, With MS Office)",
+      "flipkartUrl": "https://flipkart.com/asus-vivobook-s-15-oled-2023-intel-evo-h-series-core-i5-13th-gen-16-gb-512-gb-ssd-windows-11-home-k5504va-lk542ws-thin-light-laptop/p/itm70c9e041d88a2?pid=COMGZDQJBHQZ7RHS&lid=LSTCOMGZDQJBHQZ7RHSQOFQDB&marketplace=FLIPKART&q=laptop+Intel+Core+i5+i5-1240P+Intel+Integrated+Iris+Xe+Graphics+16+GB+512+GB&store=6bo%2Fb5g&srno=s_1_6&otracker=search&iid=0e89e2ed-2adb-4534-a1b7-59dd2a938837.COMGZDQJBHQZ7RHS.SEARCH&ssid=7pld55x2xuc009hc1684509972976&qH=433d5a3150dcc311",
+      "amazonUrl": null,
+      "flipkartRating": 4.7,
+      "amazonRating": null,
+      "averageRating": 4.7,
+      "amazonPrice": null,
+      "flipkartPrice": 85990,
+      "model": "asus K5504VA-LK542WS",
+      "specifications": {
+        "processor": "Intel Core i5 13500H",
+        "graphics": "Intel Integrated Iris Xe",
+        "RAM": "16 GB",
+        "storage": "512 GB",
+        "display": "39.62 cm (15.6 Inch)1920 x 1080 Pixel",
+        "display_type": "Full HD, OLED 16:9 aspect ratio, 0.2ms response time, 120Hz refresh rate, 600nits, HDR peak brightness, 100% DCI-P3 color gamut, 1,000,000:1, VESA CERTIFIED Display HDR True Black 500, 1.07 billion colors, PANTONE Validated, Glossy display, 70% less harmful blue light",
+        "price": 85990,
+        "model": "K5504VA-LK542WS",
+        "Part Number": "90NB0ZK2-M007U0"
+      }
+    },
+    {
+      "title": "ASUS Vivobook 15 OLED (2022) Core i5 12th Gen - (16 GB/512 GB SSD/Windows 11 Home) X1505ZA-L1511WS Thin and Light Laptop  (15.6 Inch, Indie Black, 1.7 Kg, With MS Office)",
+      "flipkartUrl": "https://flipkart.com/asus-vivobook-15-oled-2022-core-i5-12th-gen-16-gb-512-gb-ssd-windows-11-home-x1505za-l1511ws-thin-light-laptop/p/itm7987af78c94cc?pid=COMGHPPSYJ6FDVGG&lid=LSTCOMGHPPSYJ6FDVGGP1LBNJ&marketplace=FLIPKART&q=laptop+Intel+Core+i5+i5-1240P+Intel+Integrated+Iris+Xe+Graphics+16+GB+512+GB&store=6bo%2Fb5g&srno=s_1_10&otracker=search&iid=0e89e2ed-2adb-4534-a1b7-59dd2a938837.COMGHPPSYJ6FDVGG.SEARCH&ssid=7pld55x2xuc009hc1684509972976&qH=433d5a3150dcc311",
+      "amazonUrl": "https://amazon.in/ASUS-Vivobook-OLED-Intel-Core/dp/B0BJS7BLY4/ref=sr_1_1?keywords=asus+X1505ZA-L1511WS&qid=1684510211&s=electronics&sr=1-1",
+      "flipkartRating": 4.4,
+      "amazonRating": 3.9,
+      "averageRating": 4.363414634146341,
+      "amazonPrice": 65195,
+      "flipkartPrice": 68990,
+      "model": "asus X1505ZA-L1511WS",
+      "specifications": {
+        "processor": "Intel Core i5 1235U",
+        "graphics": "Intel Integrated Iris Xe",
+        "RAM": "16 GB",
+        "storage": "512 GB",
+        "display": "39.62 cm (15.6 Inch)1920 x 1080 Pixel",
+        "display_type": "Full HD OLED 16:9 aspect ratio, 0.2ms response time, 550nits HDR peak brightness, 100% DCI-P3 color gamut, VESA CERTIFIED Display HDR True Black 500, 1.07 billion colors, PANTONE Validated, Glossy display, 70% less harmful blue light, TÜV Rheinland-certified, SGS Eye Care Display",
+        "price": 68990,
+        "model": "X1505ZA-L1511WS",
+        "Part Number": "90NB0ZB1-M002R0"
+      }
+    },
+    {
+      "title": "ASUS Vivobook S 14 Intel EVO H-Series Core i5 12th Gen - (16 GB/512 GB SSD/Windows 11 Home) S3402ZA-LY542WS Thin and Light Laptop  (14 inch, Indie Black, 1.50 Kg)",
+      "flipkartUrl": "https://flipkart.com/asus-vivobook-s-14-intel-evo-h-series-core-i5-12th-gen-16-gb-512-gb-ssd-windows-11-home-s3402za-ly542ws-thin-light-laptop/p/itm17b79467e85b9?pid=COMGNY4VRQEC4XHH&lid=LSTCOMGNY4VRQEC4XHHDXXYGU&marketplace=FLIPKART&q=laptop+Intel+Core+i5+i5-1240P+Intel+Integrated+Iris+Xe+Graphics+16+GB+512+GB&store=6bo%2Fb5g&srno=s_1_9&otracker=search&iid=0e89e2ed-2adb-4534-a1b7-59dd2a938837.COMGNY4VRQEC4XHH.SEARCH&ssid=7pld55x2xuc009hc1684509972976&qH=433d5a3150dcc311",
+      "amazonUrl": null,
+      "flipkartRating": 4.2,
+      "amazonRating": null,
+      "averageRating": 4.2,
+      "amazonPrice": null,
+      "flipkartPrice": 63990,
+      "model": "asus S3402ZA-LY542WS",
+      "specifications": {
+        "processor": "Intel Core i5 12500H",
+        "graphics": "Intel Integrated Iris Xe",
+        "RAM": "16 GB",
+        "storage": "512 GB",
+        "display": "35.56 cm (14 inch)1920 x 1200 Pixel",
+        "display_type": "WUXGA, 16:10 aspect ratio,LED Backlit, IPS-level Panel, 60Hz refresh rate, 300nits, 45% NTSC color gamut, Anti-glare display",
+        "price": 63990,
+        "model": "S3402ZA-LY542WS",
+        "Part Number": "90NB0WE2-M00P50"
+      }
+    },
+    {
+      "title": "Lenovo IdeaPad Slim 3 Intel Core i5 11th Gen - (16 GB/512 GB SSD/Windows 11 Home) 15ITL6 Thin and Light Laptop  (15.6 Inch, Arctic Grey, 1.65 Kg, With MS Office)",
+      "flipkartUrl": "https://flipkart.com/lenovo-ideapad-slim-3-intel-core-i5-11th-gen-16-gb-512-gb-ssd-windows-11-home-15itl6-thin-light-laptop/p/itm3a8a423a53c02?pid=COMGKC6Y2KA8HMFT&lid=LSTCOMGKC6Y2KA8HMFTCCRJQM&marketplace=FLIPKART&q=laptop+Intel+Core+i5+i5-1240P+Intel+Integrated+Iris+Xe+Graphics+16+GB+512+GB&store=6bo%2Fb5g&srno=s_1_8&otracker=search&iid=0e89e2ed-2adb-4534-a1b7-59dd2a938837.COMGKC6Y2KA8HMFT.SEARCH&ssid=7pld55x2xuc009hc1684509972976&qH=433d5a3150dcc311",
+      "amazonUrl": "https://amazon.in/Lenovo-IdeaPad-39-62cm-Warranty-82H802XXIN/dp/B0BN4JZVRR/ref=sr_1_1?keywords=lenovo+82H802XXIN&qid=1684510208&s=electronics&sr=1-1",
+      "flipkartRating": 4.1,
+      "amazonRating": 4.2,
+      "averageRating": 4.175845410628019,
+      "amazonPrice": 54990,
+      "flipkartPrice": 54990,
+      "model": "lenovo 82H802XXIN",
+      "specifications": {
+        "processor": "Intel Core i5 1135G7",
+        "graphics": "Intel Integrated Iris Xe",
+        "RAM": "16 GB",
+        "storage": "512 GB",
+        "display": "39.62 cm (15.6 Inch)1920 x 1080 Pixel",
+        "display_type": "Full HD TN 250nits Anti-glare",
+        "price": 54990,
+        "model": "15ITL6",
+        "Part Number": "82H802XXIN"
+      }
+    },
+    {
+      "title": "HP 14s Intel Core i5 12th Gen - (16 GB/512 GB SSD/Windows 11 Home) 14s - dy5005TU Thin and Light Laptop  (14 inch, Natural Silver, 1.41 Kg kg, With MS Office)",
+      "flipkartUrl": "https://flipkart.com/hp-14s-intel-core-i5-12th-gen-16-gb-512-gb-ssd-windows-11-home-dy5005tu-thin-light-laptop/p/itm9372d97b214bd?pid=COMGG3S93DSUQPMU&lid=LSTCOMGG3S93DSUQPMUWKX9QS&marketplace=FLIPKART&q=laptop+Intel+Core+i5+i5-1240P+Intel+Integrated+Iris+Xe+Graphics+16+GB+512+GB&store=6bo%2Fb5g&srno=s_1_5&otracker=search&iid=0e89e2ed-2adb-4534-a1b7-59dd2a938837.COMGG3S93DSUQPMU.SEARCH&ssid=7pld55x2xuc009hc1684509972976&qH=433d5a3150dcc311",
+      "amazonUrl": "https://amazon.in/HP-Micro-Edge-Graphics-Speakers-14s-dy5005TU/dp/B0B5B4M47C/ref=sr_1_1?keywords=hp+14s+-+dy5005TU&qid=1684510020&s=electronics&sr=1-1",
+      "flipkartRating": 4.2,
+      "amazonRating": 4.1,
+      "averageRating": 4.167850333651096,
+      "amazonPrice": 60490,
+      "flipkartPrice": 60490,
+      "model": "hp 14s - dy5005TU",
+      "specifications": {
+        "processor": "Intel Core i5 1235U",
+        "graphics": "Intel Integrated Iris Xe",
+        "RAM": "16 GB",
+        "storage": "512 GB",
+        "display": "35.56 cm (14 inch)1920 x 1080 Pixels",
+        "display_type": "Full HD, IPS Touch, Micro-Edge, Anti-glare, Brightness: 250 nits, 157 PPI, Color Gamut: 45% NTSC",
+        "price": 60490,
+        "model": "14s - dy5005TU",
+        "Part Number": "6P126PA#ACJ"
+      }
+    },
+    {
+      "title": "Lenovo IdeaPad 3 Intel Core i5 12th Gen - (16 GB/512 GB SSD/Windows 11 Home) 15IAU7 Thin and Light Laptop  (15.6 Inch, Arctic Grey, 1.63 Kg, With MS Office)",
+      "flipkartUrl": "https://flipkart.com/lenovo-ideapad-3-intel-core-i5-12th-gen-16-gb-512-gb-ssd-windows-11-home-15iau7-thin-light-laptop/p/itmb696704ad257e?pid=COMGHA9RYJRG8JE6&lid=LSTCOMGHA9RYJRG8JE6DAGDGQ&marketplace=FLIPKART&q=laptop+Intel+Core+i5+i5-1240P+Intel+Integrated+Iris+Xe+Graphics+16+GB+512+GB&store=6bo%2Fb5g&srno=s_1_7&otracker=search&iid=0e89e2ed-2adb-4534-a1b7-59dd2a938837.COMGHA9RYJRG8JE6.SEARCH&ssid=7pld55x2xuc009hc1684509972976&qH=433d5a3150dcc311",
+      "amazonUrl": "https://amazon.in/Lenovo-IdeaPad-39-62cm-Warranty-82RK0085IN/dp/B0B4KBCRJ3/ref=sr_1_1?keywords=lenovo+82RK0085IN&qid=1684510205&s=electronics&sr=1-1",
+      "flipkartRating": 4.1,
+      "amazonRating": 4.1,
+      "averageRating": 4.099999999999999,
+      "amazonPrice": 58700,
+      "flipkartPrice": 58990,
+      "model": "lenovo 82RK0085IN",
+      "specifications": {
+        "processor": "Intel Core i5 1235U",
+        "graphics": "Intel Integrated Iris Xe",
+        "RAM": "16 GB",
+        "storage": "512 GB",
+        "display": "39.62 cm (15.6 Inch)1920 x 1080 Pixel",
+        "display_type": "Full HD TN 250nits Anti-glare",
+        "price": 58990,
+        "model": "15IAU7",
+        "Part Number": "82RK0085IN"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6468557f7b6a63fbd9bfe978"
+  },
+  "product_id": "6468530f7b6a63fbd9bfe976",
+  "products": [
+    {
+      "title": "realme C55 (Sunshower, 128 GB)  (8 GB RAM)",
+      "flipkartUrl": "https://flipkart.com/realme-c55-sunshower-128-gb/p/itm054283d14c56e?pid=MOBGNBYJUA2G5HK4&lid=LSTMOBGNBYJUA2G5HK40FPVVJ&marketplace=FLIPKART&q=mobile+Mediatek+Dimensity+1080+Octa+Core+2.6+GHz+6+GB+5000+mAh+50MP+%28OIS%29+++8MP+++2MP&store=tyy%2F4io&spotlightTagId=BestsellerId_tyy%2F4io&srno=s_1_2&otracker=search&fm=organic&iid=6acaa397-19d2-491e-b1b0-3fd1714a4490.MOBGNBYJUA2G5HK4.SEARCH&ppt=sp&ppn=sp&ssid=4agewup6ftcbp1q81684560206124&qH=161c53a7077fdc6b",
+      "amazonUrl": "https://amazon.in/realme-C55-Sunshower-128GB-Storage/dp/B0BZDPDLGS/ref=sr_1_1?keywords=realme+C55+%28Sunshower%2C+128+GB%29++%288+GB+RAM%29&qid=1684560240&refinements=p_n_condition-type%3A8609960031&s=electronics&sr=1-1",
+      "flipkartRating": 4.4,
+      "amazonRating": 3,
+      "averageRating": 4.399785670545009,
+      "amazonPrice": null,
+      "flipkartPrice": 13999,
+      "model": "realme C55 (Sunshower, 128 GB)  (8 GB RAM)",
+      "specifications": {
+        "battery": "5000 mAh",
+        "processor": "Helio G88 Octa Core 2 GHz",
+        "camera": "64MP + 2MP",
+        "RAM": "8 GB",
+        "storage": "128 GB",
+        "display": "17.07 cm (6.72 inch)2400 x 1080 Pixels",
+        "display_type": "Full HD+ LCD Display",
+        "price": 13999,
+        "model": "C55"
+      }
+    },
+    {
+      "title": "POCO M4 Pro (Cool Blue, 128 GB)  (8 GB RAM)",
+      "flipkartUrl": "https://flipkart.com/poco-m4-pro-cool-blue-128-gb/p/itm5f8490c5b5c0e?pid=MOBGBTHFXSFUTMWG&lid=LSTMOBGBTHFXSFUTMWGPGR7GM&marketplace=FLIPKART&q=mobile+Mediatek+Dimensity+1080+Octa+Core+2.6+GHz+6+GB+5000+mAh+50MP+%28OIS%29+++8MP+++2MP&store=tyy%2F4io&srno=s_1_11&otracker=search&iid=6acaa397-19d2-491e-b1b0-3fd1714a4490.MOBGBTHFXSFUTMWG.SEARCH&ssid=4agewup6ftcbp1q81684560206124&qH=161c53a7077fdc6b",
+      "amazonUrl": "https://amazon.in/Poco-Pro-128-Cool-Blue/dp/B0BM4WGZZX/ref=sr_1_1?keywords=POCO+M4+Pro+%28Cool+Blue%2C+128+GB%29++%288+GB+RAM%29&qid=1684560565&refinements=p_n_condition-type%3A8609960031&s=electronics&sr=1-1",
+      "flipkartRating": 4.3,
+      "amazonRating": 3.8,
+      "averageRating": 4.299892732636096,
+      "amazonPrice": null,
+      "flipkartPrice": 14499,
+      "model": "POCO M4 Pro (Cool Blue, 128 GB)  (8 GB RAM)",
+      "specifications": {
+        "battery": "5000 mAh",
+        "processor": "Mediatek Helio G96 Octa Core 2.05 GHz",
+        "camera": "64MP + 8MP + 2MP",
+        "RAM": "8 GB",
+        "storage": "128 GB",
+        "display": "16.33 cm (6.43 inch)2400 x 1080 Pixels",
+        "display_type": "Full HD+ AMOLED Display",
+        "price": 14499,
+        "model": "M4 Pro"
+      }
+    },
+    {
+      "title": "POCO M5 (Icy Blue, 64 GB)  (4 GB RAM)",
+      "flipkartUrl": "https://flipkart.com/poco-m5-icy-blue-64-gb/p/itmcc02f8aecb269?pid=MOBGHMZE5ERRQPJH&lid=LSTMOBGHMZE5ERRQPJHGJ37RN&marketplace=FLIPKART&q=mobile+Mediatek+Dimensity+1080+Octa+Core+2.6+GHz+6+GB+5000+mAh+50MP+%28OIS%29+++8MP+++2MP&store=tyy%2F4io&spotlightTagId=FkPickId_tyy%2F4io&srno=s_1_1&otracker=search&fm=organic&iid=6acaa397-19d2-491e-b1b0-3fd1714a4490.MOBGHMZE5ERRQPJH.SEARCH&ppt=sp&ppn=sp&ssid=4agewup6ftcbp1q81684560206124&qH=161c53a7077fdc6b",
+      "amazonUrl": "https://amazon.in/POCO-M5-ICY-Blue-RAM/dp/B0BGX4YFRX/ref=sr_1_1?keywords=POCO+M5+%28Icy+Blue%2C+64+GB%29++%284+GB+RAM%29&qid=1684560238&refinements=p_n_condition-type%3A8609960031&s=electronics&sr=1-1",
+      "flipkartRating": 4.3,
+      "amazonRating": 4,
+      "averageRating": 4.299242076251722,
+      "amazonPrice": null,
+      "flipkartPrice": 8999,
+      "model": "POCO M5 (Icy Blue, 64 GB)  (4 GB RAM)",
+      "specifications": {
+        "battery": "5000 mAh",
+        "processor": "Mediatek Helio G99 Octa Core 2.2 GHz",
+        "camera": "50MP + 2MP Depth Sensor + 2MP Macro Sensor",
+        "RAM": "4 GB",
+        "storage": "64 GB",
+        "display": "16.71 cm (6.58 inch)2400 x 1080 Pixels",
+        "display_type": "Full HD+ Display",
+        "price": 8999,
+        "model": "M5"
+      }
+    },
+    {
+      "title": "POCO M4 Pro 5G (Yellow, 128 GB)  (8 GB RAM)",
+      "flipkartUrl": "https://flipkart.com/poco-m4-pro-5g-yellow-128-gb/p/itm4d9754f8772b2?pid=MOBGBEU9HJR5YG2U&lid=LSTMOBGBEU9HJR5YG2UUYAVJE&marketplace=FLIPKART&q=mobile+Mediatek+Dimensity+1080+Octa+Core+2.6+GHz+6+GB+5000+mAh+50MP+%28OIS%29+++8MP+++2MP&store=tyy%2F4io&srno=s_1_8&otracker=search&iid=6acaa397-19d2-491e-b1b0-3fd1714a4490.MOBGBEU9HJR5YG2U.SEARCH&ssid=4agewup6ftcbp1q81684560206124&qH=161c53a7077fdc6b",
+      "amazonUrl": "https://amazon.in/POCO-Pro-Yellow-128GB-Storage/dp/B0BCZ7VYGH/ref=sr_1_1?keywords=POCO+M4+Pro+5G+%28Yellow%2C+128+GB%29++%288+GB+RAM%29&qid=1684560406&refinements=p_n_condition-type%3A8609960031&s=electronics&sr=1-1",
+      "flipkartRating": 4.2,
+      "amazonRating": 4.4,
+      "averageRating": 4.200030251083997,
+      "amazonPrice": null,
+      "flipkartPrice": 15999,
+      "model": "POCO M4 Pro 5G (Yellow, 128 GB)  (8 GB RAM)",
+      "specifications": {
+        "battery": "5000 mAh",
+        "processor": "Mediatek Dimensity 810 Octa Core 2.4 GHz",
+        "camera": "50MP + 8MP",
+        "RAM": "8 GB",
+        "storage": "128 GB",
+        "display": "16.76 cm (6.6 inch)2400 x 1080 Pixels",
+        "display_type": "Full HD+ Display",
+        "price": 15999,
+        "model": "M4 Pro 5G"
+      }
+    },
+    {
+      "title": "MOTOROLA g72 (Polar Blue, 128 GB)  (6 GB RAM)",
+      "flipkartUrl": "https://flipkart.com/motorola-g72-polar-blue-128-gb/p/itmec1a028ad0f56?pid=MOBGEA3CTXXRVKET&lid=LSTMOBGEA3CTXXRVKET8OM72X&marketplace=FLIPKART&q=mobile+Mediatek+Dimensity+1080+Octa+Core+2.6+GHz+6+GB+5000+mAh+50MP+%28OIS%29+++8MP+++2MP&store=tyy%2F4io&srno=s_1_6&otracker=search&iid=6acaa397-19d2-491e-b1b0-3fd1714a4490.MOBGEA3CTXXRVKET.SEARCH&ssid=4agewup6ftcbp1q81684560206124&qH=161c53a7077fdc6b",
+      "amazonUrl": "https://amazon.in/Motorola-G72-128GB-Polar-Blue/dp/B0BNKJR7X7/ref=sr_1_1?keywords=MOTOROLA+g72+%28Polar+Blue%2C+128+GB%29++%286+GB+RAM%29&qid=1684560247&refinements=p_n_condition-type%3A8609960031&s=electronics&sr=1-1",
+      "flipkartRating": 4.1,
+      "amazonRating": 5,
+      "averageRating": 4.100061137151008,
+      "amazonPrice": null,
+      "flipkartPrice": 16999,
+      "model": "MOTOROLA g72 (Polar Blue, 128 GB)  (6 GB RAM)",
+      "specifications": {
+        "battery": "5000 mAh",
+        "processor": "Mediatek Helio G99 Octa Core 2.2 GHz",
+        "camera": "108MP + 8MP + 2MP",
+        "RAM": "6 GB",
+        "storage": "128 GB",
+        "display": "16.64 cm (6.55 inch)2460 x 1080 Pixels",
+        "display_type": "Full HD+ pOLED 120Hz 10-Bit Display",
+        "price": 16999,
+        "model": "g72"
+      }
+    }
+  ]
+}]

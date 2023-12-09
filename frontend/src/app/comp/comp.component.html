@@ -1,0 +1,31 @@
+<div class="container-md">
+    <div class="d-flex justify-content-between mb-2">
+        <div class="h3">Competitive Product Analysis</div>
+    </div>
+
+    
+
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Company</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Average Rating</th>
+            <th scope="col">Features</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let product of products; let i = index">
+            <th scope="row"> {{i+1}} </th>
+            <td> {{product.company}} </td>
+            <td> {{product.name}} </td>
+            <td> {{product.price}} </td>
+            <td> {{product.rating}} </td>
+            <td> {{product.features}} </td>
+          </tr>
+
+        </tbody>
+      </table>
+</div>

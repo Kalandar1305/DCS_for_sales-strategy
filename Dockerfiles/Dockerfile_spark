@@ -1,0 +1,58 @@
+#Using NVCR tensorflow image with spark master & worker and jupyter notebook
+
+FROM nvcr.io/nvidia/tensorflow:21.06-tf2-py3
+
+ENV PIP_ROOT_USER_ACTION=ignore
+
+RUN pip install --upgrade pip
+
+WORKDIR /workspace
+
+COPY jupyter_notebook_config.py /root/.jupyter
+
+COPY requirements.txt .
+
+RUN pip install -r requirements.txt
+    
+RUN apt update && \ 
+    apt upgrade && \
+    apt install -y default-jdk-headless openvpn ssh
+
+RUN wget https://archive.apache.org/dist/spark/spark-3.3.1/spark-3.3.1-bin-hadoop3.tgz && \
+    tar -xvf spark-3.3.1-bin-hadoop3.tgz && \
+    mv spark-3.3.1-bin-hadoop3 /opt/spark
+
+ENV SPARK_HOME=/opt/spark
+
+RUN wget https://repo1.maven.org/maven2/com/nvidia/rapids-4-spark_2.12/23.02.0/rapids-4-spark_2.12-23.02.0.jar && \
+    mv rapids-4-spark_2.12-23.02.0.jar ${SPARK_HOME}
+
+RUN wget https://raw.githubusercontent.com/apache/spark/master/examples/src/main/scripts/getGpusResources.sh && \
+    mv getGpusResources.sh ${SPARK_HOME}/getGpusResources.sh && \
+    chmod 755 ${SPARK_HOME}/getGpusResources.sh
+
+RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && \
+    dpkg -i google-chrome-stable_current_amd64.deb
+
+RUN wget https://chromedriver.storage.googleapis.com/113.0.5672.63/chromedriver_linux64.zip && \
+    unzip chromedriver_linux64.zip && \
+    mv chromedriver /usr/bin
+
+ENV PATH=$PATH:${SPARK_HOME}/bin:${SPARK_HOME}/sbin
+ENV PYSPARK_PYTHON=/usr/bin/python3
+ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+ENV MASTER_URL=spark://0.0.0.0:7077
+
+RUN cp $SPARK_HOME/conf/spark-env.sh.template $SPARK_HOME/conf/spark-env.sh
+RUN cp $SPARK_HOME/conf/spark-defaults.conf.template $SPARK_HOME/conf/spark-defaults.conf
+
+RUN rm -rf * && \
+    apt autoremove --purge
+
+RUN echo 'SPARK_WORKER_OPTS="-Dspark.worker.resource.gpu.amount=`nvidia-smi --list-gpus | wc -l` -Dspark.worker.resource.gpu.discoveryScript=${SPARK_HOME}/getGpusResources.sh"' >> $SPARK_HOME/conf/spark-env.sh
+RUN echo 'spark.driver.extraClassPath /opt/spark/rapids-4-spark_2.12-23.02.0.jar' >> $SPARK_HOME/conf/spark-defaults.conf
+RUN echo 'spark.executor.extraClassPath /opt/spark/rapids-4-spark_2.12-23.02.0.jar' >> $SPARK_HOME/conf/spark-defaults.conf
+
+RUN echo 'start-master.sh; start-worker.sh $MASTER_URL; jupyter notebook' > /root/start.sh
+
+CMD ["bash", "/root/start.sh"]

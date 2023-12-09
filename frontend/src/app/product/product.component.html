@@ -1,0 +1,144 @@
+<div class="card my-1" [id]="product.id">
+    <div class="card-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-7">
+                    <div class="h5">
+                        {{product.name | titlecase }}
+                    </div>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">{{product.price | currency:"INR"}}</h6>
+                    <div class="row">
+                        <div class="col-6" *ngFor="let specification of product.specifications | keyvalue">
+                            <p class="text-secondary">
+                                <span class="fw-bold">{{specification.key | titlecase}}</span>: {{specification.value }}
+                            </p>
+                        </div>
+                        <!-- <div class="col">
+                    <p class="text-secondary">
+                        RAM: {{product.specifications?.ram}}
+                    </p>
+                </div> -->
+                    </div>
+                    <!-- <div class="row">
+                <div class="col">
+                    <p class="text-secondary">
+                        Storage: {{product.specifications?.storage}}
+                    </p>
+                </div>
+                <div class="col">
+                    <p class="text-secondary">
+                        Battery: {{product.specifications?.battery}}
+                    </p>
+                </div>
+            </div> -->
+                </div>
+                <div class="col-2">
+                    <a [href]="product.urls.flipkartURL" target="_blank" class="card-link">Flipkart </a>
+                    <a [href]="product.urls.amazonURL" target="_blank" class="card-link">Amazon</a>
+                </div>
+                <div class="col-3">
+       <div class="d-flex justify-content-between">
+        <button (click)="openSetPrice(setprice)" class="btn btn-dark me-1 my-1">
+            Set Price
+        </button>
+        <button (click)="openAddSales(addsales)" class="btn btn-dark me-1  my-1">
+            Add sales
+        </button>
+        <button routerLink="{{'stats/'+product.id}}" class="btn btn-dark  my-1">
+            Statistics
+        </button>
+       </div>
+
+       <div class="d-flex justify-content-between">
+
+                    <button routerLink="{{'competitor-analysis/'+product.id}}" class="btn btn-dark my-1">
+                        Competitor Analysis
+                    </button>
+                    <button (click)="openDeleteModal(deletemodal)" class="btn btn-danger ms-1 my-1">
+                        Delete
+                    </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<ng-template #addsales let-modal>
+    <div class="m-2">
+        <div class="modal-header">
+            <h4 class="modal-title">Add sales for week {{product.sales!.length +1 }}</h4>
+            <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+        </div>
+        <div class="modal-body">
+            <div class="mb-3  flex-basis-50 ps-1">
+                <label for="sales" class="form-label ">Enter sales for Week {{product.sales!.length +1 }}</label>
+                <input type="number" class="form-control no-spinners" name="price" [(ngModel)]="sales" id="sales">
+            </div>
+        </div>
+        <form (ngSubmit)="addSales($event)">
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-light">Submit</button>
+            </div>
+        </form>
+    </div>
+</ng-template>
+
+<ng-template #setprice let-modal>
+    <div>
+        <div class="modal-header">
+            <h4 class="modal-title">Set price for week {{product.sales!.length +1}}</h4>
+            <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+        </div>
+        <div class="modal-body" *ngIf="!error">
+            <p>Recommended price is: {{recommended_price}} </p>
+            <p>Competitor Price:</p>
+            <table class="table">
+                <tbody>
+                    <tr *ngFor="let product of comp_products; let i = index">
+                        <th scope="row"> {{i+1}} </th>
+                        <td> {{product.title}} </td>
+                        <td> {{product.amazonPrice}} </td>
+                        <td> {{product.flipkartPrice}} </td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <div class="mb-3  flex-basis-50 ps-1">
+                <label for="sales" class="form-label ">Set price for Week {{product.sales!.length +1}}</label>
+                <input type="number" class="form-control no-spinners" name="price" [(ngModel)]="price" id="sales">
+            </div>
+        </div>
+        <div class="modal-body" *ngIf="error">
+            <p class="text-danger">
+                {{errorMessage}}
+            </p>
+        </div>
+        <div class="modal-footer" *ngIf="!error">
+            <form (ngSubmit)="setPrice($event)">
+                <button type="submit" class="btn btn-light">Submit</button>
+            </form>
+        </div>
+    </div>
+
+</ng-template>
+
+<ng-template #deletemodal let-modal>
+    <div class="m-2">
+        <div class="modal-header">
+            <h4 class="modal-title text-danger">Delete Product</h4>
+            <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+        </div>
+        <div class="modal-body">
+            <p class="text-warning">Are you sure you want to delete this product? </p>
+            <p>{{delete_product?.name | titlecase}}</p>
+
+        </div>
+        <div class="modal-footer">
+            <form (ngSubmit)="delete($event)">
+                <button type="submit" class="btn btn-danger float-end">Delete</button>
+            </form>
+        </div>
+    </div>
+</ng-template>

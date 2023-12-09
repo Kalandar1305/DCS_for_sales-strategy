@@ -1,0 +1,71 @@
+<div class="container-sm mb-5">
+    <div class="row">
+        <div class="col">
+            <div class="h3">
+                Sentiment vs Number of Reviews
+            </div>
+            <p class="text-secondary">
+                Bar Chart Showing Sentiment vs Number of Reviews
+            </p>
+            <div class="container-fluid">
+                <img [src]="image1" alt="" srcset="">
+            </div>
+        </div>
+        <div class="col">
+            <div class="h3">
+                Week vs Sentiment Scores & Sales
+            </div>
+            <p class="text-secondary">
+                graph Showing Week vs Sentiment Scores & Sales
+            </p>
+            <div class="container-fluid">
+                <img [src]="image2" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-sm mb-5">
+    <div class="h3">
+        Aspect Sentiment Analysis
+    </div>
+    <div class="row">
+        <div class="col" *ngFor="let image of aspectImages" >
+            <img [src]=" 'http://172.17.0.2:5000/'+ image" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="container-sm mb-5">
+<div class="d-flex justify-content-between">
+    <div class="h3">Reviews</div>    <div>
+        <select class="form-select" [(ngModel)]="status" id="type" name="status" (change)="change()" >
+            <option ngValue="negative">Negative</option>
+            <option ngValue="positive">Positive</option>
+          </select>
+    </div>
+</div>
+    <div class="h3"> {{status | titlecase}} Reviews
+    </div>
+
+    <ul class="list-group">
+        <li class="list-group-item" *ngFor="let review of reviews">{{review.title}}
+            <p class="text-secondary">
+                {{review.content}}
+            </p>
+
+        </li>
+      </ul>
+</div>
+
+<!-- <div class="container-sm pb-3">
+    <div class="h3"> Positive and Neutral Reviews
+    </div>
+    <ul class="list-group">
+        <li class="list-group-item" *ngFor="let review of posReviews">{{review.title}}
+            <p class="text-secondary">
+                {{review.content}}
+            </p>
+
+        </li>
+      </ul>
+</div> -->

@@ -1,0 +1,167 @@
+{
+	"info": {
+		"_postman_id": "35788fff-51a4-4320-bb57-b307210cd8d6",
+		"name": "Project_backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18167823"
+	},
+	"item": [
+		{
+			"name": "add_product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"mobile\",\n    \"price\": 12500,\n    \"features\": {\n        \"processor\": \"snapdragon\"\n    },\n    \"min_price\": 10000,\n    \"max_price\": 13000,\n    \"urls\": {\n        \"flipkartURL\": \"https://www.flipkart.com/redmi-11-prime-5g-chrome-silver-128-gb/product-reviews/itme0b907d1e24ea?pid=MOBGHDXFGAQHEM3K&lid=LSTMOBGHDXFGAQHEM3K46SOZS&marketplace=FLIPKART\",\n        \"amazonURL\": \"https://www.amazon.in/Redmi-Thunder-Storage-Dimensity-5000mAh/product-reviews/B0BBFJLP21/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/add_product",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"add_product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_sales",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"6457ab341286aba59b534fbc\",\n    \"sales\" : 50\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/add_sales",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"add_sales"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/get_products",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"get_products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get image",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/images/7b341d73-645b-45b2-828f-6eb082d841a5.png",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"images",
+						"7b341d73-645b-45b2-828f-6eb082d841a5.png"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update price",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": \"6457ab341286aba59b534fbc\",\n    \"price\" : 12800\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/set_price",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"set_price"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "poslarity vs number of reviews",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/polarity_bar_chart/6457ad48427219f8f0f16e1d",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"polarity_bar_chart",
+						"6457ad48427219f8f0f16e1d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "week_sales_line_graph",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/week_sales_line_graph/6457ad48427219f8f0f16e1d",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"week_sales_line_graph",
+						"6457ad48427219f8f0f16e1d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_aspect_sentiment",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,30 @@
+products:
+    css: div._2kHMtA
+    multiple: true
+    type: Text
+    children:
+        url:
+            css: a._1fQZEK
+            xpath: null
+            type: Attribute
+            attribute: href
+        title:
+            css: div._4rR01T
+            xpath: null
+            type: Text
+        rating:
+            css: div._3LWZlK
+            xpath: null
+            type: Text
+        n_ratings:
+            css: 'span._2_R_DZ span span:nth-of-type(1)'
+            xpath: null
+            type: Text
+        ad:
+            css: div._2tfzpE
+            xpath: null
+            type: Text
+        price: 
+            css: div._30jeq3._1_WHN1
+            xpath: null
+            type: Text

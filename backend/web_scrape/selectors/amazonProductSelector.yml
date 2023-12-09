@@ -1,0 +1,27 @@
+products:
+    css: 'div[data-component-type=s-search-result]:not(.AdHolder)'
+    xpath: null
+    multiple: true
+    type: Text
+    children:
+        url:
+            css: a.a-link-normal.s-no-outline
+            xpath: null
+            type: Attribute
+            attribute: href
+        title:
+            css: span.a-size-medium.a-color-base.a-text-normal
+            xpath: null
+            type: Text
+        rating:
+            css: 'i.a-icon.a-icon-star-small.a-star-small-4.aok-align-bottom'
+            xpath: null
+            type: Text
+        n_ratings:
+            css: 'span.a-size-base.s-underline-text'
+            xpath: null
+            type: Text
+        price:
+            css: 'span.a-price-whole'
+            xpath: null
+            type: Text

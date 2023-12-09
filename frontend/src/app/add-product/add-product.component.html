@@ -1,0 +1,49 @@
+<div class="container-fluid my-2">
+  <div class="modal-header">
+    <h4 class="modal-title">Add Product</h4>
+    <button type="button" class="btn-close"></button>
+  </div>
+  <form (submit)="submit($event)">
+    <div class="d-flex flex-wrap">
+      <div class="mb-3  flex-basis-50 pe-1">
+        <label for="name" class="form-label">Product Name</label>
+        <input type="text" class="form-control" [(ngModel)]="product.name" name="name" id="name">
+      </div>
+      <div class="mb-3  flex-basis-50 ps-1">
+        <label for="price" class="form-label ">Price</label>
+        <input type="number" class="form-control no-spinners" name="price" [(ngModel)]="product.price" id="price">
+      </div>
+      <div class="mb-3  flex-basis-50 pe-1">
+        <label for="flipkartURL" class="form-label ">Flipkart URL</label>
+        <input type="text" class="form-control no-spinners" name="flipkartURL" [(ngModel)]="product.urls.flipkartURL"
+          id="flipkartURL">
+      </div>
+      <div class="mb-3  flex-basis-50 ps-1">
+        <label for="amazonURL" class="form-label ">Amazon URL</label>
+        <input type="text" class="form-control no-spinners" name="amazonURL" [(ngModel)]="product.urls.amazonURL"
+          id="amazonURL">
+      </div>
+      <div class="mb-3  flex-basis-50 pe-1">
+        <label for="min-price" class="form-label ">Minimum Price</label>
+        <input type="number" class="form-control no-spinners" name="min_price" [(ngModel)]="product.min_price"
+          id="min-price">
+      </div>
+      <div class="mb-3  flex-basis-50 ps-1">
+        <label for="max-price" class="form-label ">Maximum Price</label>
+        <input type="number" class="form-control no-spinners" name="max_price" [(ngModel)]="product.max_price"
+          id="max-price">
+      </div>
+      <div class="mb-3 flex-basis-50 pe-1">
+        <label for="type" class="form-label ">Select Product Type</label>
+        <select class="form-select" [(ngModel)]="product.type" id="type" name="type">
+          <option ngValue="laptop">Laptop</option>
+          <option ngValue="mobile">Mobile</option>
+        </select>
+      </div>
+
+    </div>
+    <div class="modal-footer">
+      <button type="submit" class="btn btn-primary float-right">Submit</button>
+    </div>
+  </form>
+</div>

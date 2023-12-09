@@ -1,0 +1,15 @@
+notebook 
+ipywidgets 
+pandas==1.4.4
+transformers 
+numpy==1.19.5 
+tensorflow_datasets==4.8.3 
+scikit-learn==1.2.2
+matplotlib==3.6.1
+selenium
+selectorlib
+flask
+flask-cors
+waitress
+requests
+pandas

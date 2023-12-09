@@ -1,0 +1,42 @@
+product_title:
+    css: 'div._2s4DIt._1CDdy2'
+    type: Text
+average_rating:
+    css: 'div._1azcI6 div._2d4LTz'
+    type: Text
+hist: 
+    css: 'span._26f_zl'
+    type: Text
+    multiple: true
+val: 
+    css: 'div._1uJVNT'
+    type: Text
+    multiple: true
+price: 
+    css: 'div._30jeq3'
+    Type: Text
+reviews:
+    css: 'div._1AtVbE'
+    multiple: true
+    type: Text
+    children:
+        review_title:
+            css: p._2-N8zT
+            type: Text
+        content:
+            css: 'div.t-ZTKy div div'
+            type: Text
+        rating:
+            css: 'div._3LWZlK'
+            type: Text
+        likes:
+            css: 'div._1LmwT9:nth-of-type(1) span'
+            type: Text
+        dislikes: 
+            css: 'div._1LmwT9:nth-of-type(2) span'
+        time: 
+            css: 'p._2sc7ZR:nth-of-type(3)'
+            type: Text
+number_of_reviews:
+    css: 'div.row:nth-of-type(3) div.col-12-12 span'
+    type: Text

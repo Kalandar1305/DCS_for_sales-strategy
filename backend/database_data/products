@@ -1,0 +1,79 @@
+[{
+  "_id": {
+    "$oid": "646795070603aeec8d82f3dd"
+  },
+  "name": "Hp Pavilion Eyesafe 15-eg2035tu",
+  "price": 71801,
+  "min_price": 68000,
+  "max_price": 78000,
+  "urls": {
+    "flipkartURL": "https://www.flipkart.com/hp-pavilion-eyesafe-2023-intel-core-i5-12th-gen-16-gb-512-gb-ssd-windows-11-home-eg2035tu-15-eg2035tu-thin-light-laptop/p/itm480cd128c58a0?pid=COMGDTTDKTZHWWJG&lid=LSTCOMGDTTDKTZHWWJGZ0D5GU&marketplace=FLIPKART&q=hP+15-Eg2035Tu&store=6bo&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=10afdffa-3988-44c5-9157-2806934efa80.COMGDTTDKTZHWWJG.SEARCH&ppt=sp&ppn=sp&ssid=8fa9l1rups0000001684410067648&qH=023672f934dcaaad",
+    "amazonURL": "https://www.amazon.in/Pavilion-Anti-Glare-Eyesafe-Display-15-Eg2035Tu/dp/B09Y985TSS/ref=sr_1_13?keywords=hp%2Bpavilion%2Blaptop%2B15-eg2019tx&qid=1684409934&sprefix=hp%2Bpavilion%2B15-EG2019TX%2Caps%2C254&sr=8-13&th=1"
+  },
+  "type": "laptop",
+  "sales": [
+    250,
+    150,
+    130,
+    120,
+    100
+  ],
+  "scores": [
+    -1,
+    -1,
+    -0.5897435897435898,
+    -0.19230769230769232,
+    -0.14814814814814814
+  ],
+  "prices": [
+    72990,
+    72990,
+    72000,
+    71911,
+    71801
+  ],
+  "recommended_price": 71669,
+  "specifications": {
+    "processor": "Intel Core i5 i5-1240P",
+    "graphics": "Intel Integrated Iris Xe Graphics",
+    "RAM": "16 GB",
+    "storage": "512 GB",
+    "display": "39.62 cm (15.6 Inch)1920 x 1080 Pixels",
+    "display_type": "FHD, IPS, micro-edge, Anti glare, low blue light ( Brightness: 300 nits, 141 ppi Color Gamut: 100%sRGB)",
+    "price": 72490,
+    "model": "EG2035TU",
+    "Part Number": "6D4K7PA"
+  },
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6468530f7b6a63fbd9bfe976"
+  },
+  "name": "Redmi Note 12 Pro 5G",
+  "price": 24999,
+  "min_price": 23000,
+  "max_price": 27500,
+  "urls": {
+    "flipkartURL": "https://www.flipkart.com/redmi-note-12-pro-5g-onyx-black-128-gb/p/itmbc9fd7adaa32a?pid=MOBGH2UVMHEPGSHM&lid=LSTMOBGH2UVMHEPGSHMZTFAGO&marketplace=FLIPKART&q=redmi+note+12+pro+5g&store=tyy%2F4io&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_17_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_17_na_na_ps&fm=organic&iid=bca21309-45e0-4508-a6b3-ed22656b404f.MOBGH2UVMHEPGSHM.SEARCH&ppt=hp&ppn=homepage&ssid=328c9au5rk0000001684558548870&qH=51d2caee33332827",
+    "amazonURL": "https://www.amazon.in/Redmi-12-Pro-5G-Glacier/dp/B0BRVFZSGV/ref=sr_1_2?crid=3RT9NJ82YM9UK&keywords=REDMI+Note+12+Pro+5G&qid=1684558564&sprefix=redmi%2520note%252012%2520pro%25205g%2520%2Caps%2C262&sr=8-2"
+  },
+  "type": "mobile",
+  "sales": [],
+  "scores": [],
+  "prices": [
+    24999
+  ],
+  "recommended_price": null,
+  "specifications": {
+    "battery": "5000 mAh",
+    "processor": "Mediatek Dimensity 1080 Octa Core 2.6 GHz",
+    "camera": "50MP (OIS) + 8MP + 2MP",
+    "RAM": "6 GB",
+    "storage": "128 GB",
+    "display": "16.94 cm (6.67 inch)2400 x 1080 Pixels",
+    "display_type": "Full HD+ AMOLED Display",
+    "price": 24999,
+    "model": "Note 12 Pro 5G"
+  },
+  "status": 1
+}]
